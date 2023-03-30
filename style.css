@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  auto;
+    margin-top: 8px;
+    width: 83%;
+}
+
+ul{
+    list-style-type: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+nav ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 50%;
+}
+nav ul li:hover{
+    cursor: pointer;
+    color: rgb(255, 97, 81);
+}
+h1{
+    padding-left: 3.7%;
+    padding-top: 12%;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.box{
+    width: 1000px;
+    height: 1000px;
+    margin: 20px auto ;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: azure;
+
+}
+a img{
+    width: 280px;
+    height: 250px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+}
+.photo_1{
+    position: absolute;
+    top: 70%;
+    right: 0%;
+}
+.photo_2{
+    position: absolute;
+    top: 70%;
+    right: 37%;
+}
+.photo_3{
+    position: absolute;
+    top: 70%;
+}
+.photo_4{
+    position: absolute;
+}
+.photo_5{
+    position: absolute;
+    top: 35%;
+    right: 0%;
+}
+.photo_6{
+    position: absolute;
+    top: 35%;
+    right: 37%;
+}
+.photo_7{
+    position: absolute;
+    top: 35%;
+}
+.photo_8{
+    position: absolute;
+    right: 37%;
+}
+.photo_9{
+    position: absolute;
+    right: 0%;
+}
